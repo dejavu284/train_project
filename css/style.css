@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    width: min(100% - 40px, 800px);
+    margin: 0;
+    margin-inline: auto;
+    padding: 0;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 50px;
+}
+
+.card {
+    background-color: rgb(138, 175, 207);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.card__title {
+    color: white;
+}
+
